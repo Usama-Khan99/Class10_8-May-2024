@@ -28,10 +28,17 @@ switch (dayOff) {
 function greet() {
     console.log("Hello World");
 }
-greet();
+greet(); // invoking the function
+// function halfFryEgg(){
+//     let cooked = 1 + 1.5 + 4;
+//     console.log(cooked);
+// }
+// halfFryEgg();    // Invoking the function
+// Returning Function Values 
 function halfFryEgg() {
     let cooked = 1 + 1.5 + 4;
-    console.log(cooked);
+    return cooked;
 }
-halfFryEgg();
+let result = halfFryEgg();
+console.log(result);
 export {};

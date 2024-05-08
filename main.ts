@@ -40,18 +40,26 @@ function greet(){
 }
 greet();   // invoking the function
 
-// function halfFryEgg(){
-//     let cooked = 1 + 1.5 + 4;
-//     console.log(cooked);
+function halfFryEgg(){
+    let cooked = 1 + 1.5 + 4;
+    console.log(cooked);
     
-// }
-// halfFryEgg();    // Invoking the function
+}
+halfFryEgg();    // Invoking the function
 
 // Returning Function Values 
 
-function halfFryEgg(){
+function halfFryEgg2() : number{
     let cooked = 1 + 1.5 + 4;
     return cooked;
     
 }
-let result = halfFryEgg();
+let result = halfFryEgg2();
+console.log(result);
+
+// Parameters and Arguments
+
+function halfFryEgg3(egg:number, butter:number, salt:number){
+    let cooked = egg + butter + salt;
+}
+let result1 = halfFryEgg3(1,2,3);
