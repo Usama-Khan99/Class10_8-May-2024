@@ -20,6 +20,18 @@ switch(dayOff){
     default:
         console.log("Work on a hobby.");
         
-        
-        
+}
+
+
+// Functions 
+// syntax of function 
+// function variablename  (){
+
+// }
+// Functions are the fundamental building block of any application in java script 
+
+// Basic Function 
+// keyword     variable 
+function halfFryEgg(){
+
 }

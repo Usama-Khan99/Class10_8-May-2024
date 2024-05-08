@@ -1,11 +1,15 @@
 {
   "name": "class10_8-may-2024",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a class 10",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  }
 }
