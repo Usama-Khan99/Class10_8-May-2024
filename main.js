@@ -16,4 +16,15 @@ switch (dayOff) {
     default:
         console.log("Work on a hobby.");
 }
+// Functions 
+// syntax of function 
+// function functionname  (){
+// }
+// Functions are the fundamental building block of any application in java script 
+// Basic Function 
+// keyword     function name 
+function greet() {
+    console.log("Hello World");
+}
+greet();
 export {};

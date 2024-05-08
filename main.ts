@@ -25,13 +25,15 @@ switch(dayOff){
 
 // Functions 
 // syntax of function 
-// function variablename  (){
+// function functionname  (){
 
 // }
 // Functions are the fundamental building block of any application in java script 
 
 // Basic Function 
-// keyword     variable 
-function halfFryEgg(){
-
+// keyword     function name 
+function greet(){
+    console.log("Hello World");
+    
 }
+greet();
