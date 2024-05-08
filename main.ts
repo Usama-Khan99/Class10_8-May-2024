@@ -29,6 +29,8 @@ switch(dayOff){
 
 // }
 // Functions are the fundamental building block of any application in java script 
+// why we use function? (1- code ki execution ka control ajata h.
+//  2- ek bar variable bana k jaha bh need ho srf function name call kar k use kar sakty h) 
 
 // Basic Function 
 // keyword     function name 
@@ -37,3 +39,10 @@ function greet(){
     
 }
 greet();
+
+function halfFryEgg(){
+    let cooked = 1 + 1.5 + 4;
+    console.log(cooked);
+    
+}
+halfFryEgg();
